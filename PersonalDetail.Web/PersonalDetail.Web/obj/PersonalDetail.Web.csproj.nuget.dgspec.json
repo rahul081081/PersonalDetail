@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Developer\\App\\PersonalDetail.Web\\PersonalDetail.Web\\PersonalDetail.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Developer\\App\\PersonalDetail.Web\\PersonalDetail.Web\\PersonalDetail.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Developer\\App\\PersonalDetail.Web\\PersonalDetail.Web\\PersonalDetail.Web.csproj",
+        "projectName": "PersonalDetail.Web",
+        "projectPath": "C:\\Developer\\App\\PersonalDetail.Web\\PersonalDetail.Web\\PersonalDetail.Web.csproj",
+        "packagesPath": "C:\\Users\\mewadra\\.nuget\\packages\\",
+        "outputPath": "C:\\Developer\\App\\PersonalDetail.Web\\PersonalDetail.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mewadra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.orientcapital.local/nuget/": {},
+          "http://nuget01.casfs.co.uk/nuget/dsf-cmps-sdlc": {},
+          "http://nuget01.casfs.co.uk/nuget/dsf-msgs-live/": {},
+          "http://nuget01.casfs.co.uk/nuget/dsf-msgs-sdlc/": {},
+          "http://nuget01.casfs.co.uk/nuget/dsf-pkgs/": {},
+          "http://nuget01.casfs.co.uk/nuget/dsfmsgs": {},
+          "http://nuget01.casfs.co.uk/nuget/live-sm/": {},
+          "http://nuget01.casfs.co.uk/nuget/live/": {},
+          "http://nuget01.casfs.co.uk/nuget/sdlc/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/linkgroup-ds/_packaging/dsFeed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.208\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
